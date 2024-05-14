@@ -15,18 +15,18 @@ int romanToInt(char* s) {
         
         if (s[i + 1] != '\0') {
             for(int j = 0; j < sizeof(literal) / sizeof(literal[0]); j++){
-                if(s[i] == literal[j]){
+                if(s[i + 1] == literal[j]){
                     j2 = j;
                     break;
                 }
             }
             if(j1 < j2){
                 sum = sum + values[j2] - values[j1];
-                i = i + 2;
+                i += 2;
             }
             else{
-                sum = sum + values[j1] + values[j2];
-                i = i + 2;
+                sum = sum + values[j1];
+                i++;
             } 
         }
         else {
