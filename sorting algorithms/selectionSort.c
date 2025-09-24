@@ -1,7 +1,7 @@
 // Selection Sort
 // Find the smallest element
 // Replace it with the first element
-// then find the second element
+// then find the next smallest element
 // Replace it with the second element
 // Do this by finding the indexes and then replace
 
