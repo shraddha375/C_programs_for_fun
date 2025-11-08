@@ -1,5 +1,7 @@
 /*
-    Consider two variables: 1. One holds the index of the latest unique value 2. Other iterates over the array
+    Consider two variables: 1. One holds the index of the latest unique value 'i' 2. Other iterates over the array 'j' 
+    If a new element does not match with the latest unique element, then store it next to the latest unique element and 
+    update the 'i' variable.
     
 */
 
