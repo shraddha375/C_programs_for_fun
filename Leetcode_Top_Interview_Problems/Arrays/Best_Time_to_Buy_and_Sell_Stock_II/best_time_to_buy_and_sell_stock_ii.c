@@ -1,3 +1,7 @@
+/*
+    General Observation: The total profit is equal to the sum of differences between (prices[i+1] - prices[i]) where prices[i+1] > prices[i+1]
+*/
+
 #include <stdio.h>
 #include <assert.h>
 
